@@ -9,10 +9,10 @@ This program traces arteries in a whole mouse brain.
 
 1. Open MobaXterm and doubli-click WSL-Ubuntu (or something equivalent).
 
-2a. (one time) create conda environment from a yml file (env_at4x.ylm)
+   -- (one time) create conda environment from a yml file (env_at4x.ylm)
 (base)$ conda env create --name at4x --file=env_at4x.yml
 
-2b. Activate the created conda environment
+2. Activate the created conda environment
 (base)$ conda activate at4x
 
 3. Start Jupyter Notebook
